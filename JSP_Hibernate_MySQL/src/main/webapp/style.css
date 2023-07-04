@@ -1,0 +1,71 @@
+body {
+    font-family: Comic Sans MS, sans-serif;
+    margin-top: 50px;
+    padding: 0;
+    background-image: url("images/todo1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.container {
+    max-width: 600px;
+    border-radius:25px ;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #333;
+}
+
+form {
+    font-size: 16px;
+    margin-top: 70px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    outline: none;
+    font-family: Comic Sans MS, sans-serif;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    background-color: #ffdb58;
+    color: black;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin-left: 5px;
+    font-family: Comic Sans MS, sans-serif;
+}
+
+#view{
+    font-size: 20px;
+    margin-left:218px;
+    color: black;
+    background-color: #ffdb58;
+    font-family: Comic Sans MS, sans-serif;
+}
+
+.itemsTable{
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: separate;
+    border-spacing: 92px 10px;
+}
+#header{
+    font-size: large;
+
+}
